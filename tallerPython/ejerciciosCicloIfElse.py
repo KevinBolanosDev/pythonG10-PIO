@@ -1,6 +1,7 @@
 # 1.1. Pida una “letra” por teclado y diga si es de las primeras letras del 
 # alfabeto o si es de las ultimas
 
+print("\n ******Ejercicio 1.1*****************")
 pedir_letra = input("Ingrese una letra: ").lower()
 
 if pedir_letra.isalpha() and len(pedir_letra) == 1:
@@ -13,6 +14,8 @@ else:
 
 
 # 1.2. Pida el valor de un ángulo en grados y diga en que cuadrante se encuentra.
+
+print("\n ******Ejercicio 1.2*****************")
 
 angulo = float(input("Ingresa el valor del ángulo en grados: "))
 
@@ -32,6 +35,8 @@ else:
 # siguientes parámetros: mayor a 4.5 “Excelente”, entre 3.5 y 4.5 “bueno”, entre
 # 3 y 3.5 “regular” e “Insuficiente” entre 0 y 3.
 
+print("\n ******Ejercicio 1.3*****************")
+
 calificacion = float(input("Ingrese la calificación del estudiante: "))
 
 if calificacion > 4.5:
@@ -46,6 +51,8 @@ else:
     print("La calificación ingresada no es válida.")
 
 # 1.4. Solicita y clasifica la temperatura como frio, templado y cálido.
+
+print("\n ******Ejercicio 1.4*****************")
 
 temperatura = float(input("Ingrese la temperatura en grados Celsius: "))
 
@@ -64,6 +71,7 @@ else:
 # c. Si ingresa otra palabra el mensaje será “! Jengibre¡ No ", la palabra
 # ingresada.
 
+print("\n ******Ejercicio 1.5*****************")
 palabra_jengibre = input("Ingrese la palabra 'Jengibre': ")
 
 if palabra_jengibre == "Jengibre":
